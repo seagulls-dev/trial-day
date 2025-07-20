@@ -7,3 +7,4 @@ CREATE TABLE issue_db.issues (
   updated_by VARCHAR(100),
   updated_at TIMESTAMP NOT NULL DEFAULT now()
 );
+
