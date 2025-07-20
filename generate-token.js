@@ -1,6 +1,8 @@
+//task 5
 const jwt = require('jsonwebtoken');
+const config = require('./config');
 
-const SECRET = 'your-secret-key';
+const SECRET = config.SECRET;
 
 const payload = {
     sub: 'user-id-123',

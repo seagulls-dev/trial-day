@@ -6,5 +6,6 @@ module.exports = {
     password: "abc123456",
     database: "issue_db",
     port: "3307",
-  }
+  },
+  SECRET: 'your-secret-key',
 };
